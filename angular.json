@@ -101,7 +101,10 @@
               "apps/dashboard/tsconfig.app.json",
               "apps/dashboard/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!apps/dashboard/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/dashboard/**"
+            ]
           }
         }
       }
@@ -126,7 +129,10 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": "apps/dashboard-e2e/tsconfig.e2e.json",
-            "exclude": ["**/node_modules/**", "!apps/dashboard-e2e/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!apps/dashboard-e2e/**"
+            ]
           }
         }
       }
@@ -152,7 +158,10 @@
               "libs/material/tsconfig.lib.json",
               "libs/material/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/material/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/material/**"
+            ]
           }
         }
       }
@@ -178,7 +187,10 @@
               "libs/core-data/tsconfig.lib.json",
               "libs/core-data/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/core-data/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/core-data/**"
+            ]
           }
         }
       }
@@ -204,7 +216,10 @@
               "libs/ui-login/tsconfig.lib.json",
               "libs/ui-login/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/ui-login/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/ui-login/**"
+            ]
           }
         }
       }
@@ -230,7 +245,10 @@
               "libs/ui-toolbar/tsconfig.lib.json",
               "libs/ui-toolbar/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/ui-toolbar/**"]
+            "exclude": [
+              "**/node_modules/**",
+              "!libs/ui-toolbar/**"
+            ]
           }
         }
       }
@@ -241,7 +259,8 @@
       "typescriptMismatch": false,
       "versionMismatch": false
     },
-    "defaultCollection": "@nrwl/angular"
+    "defaultCollection": "@nrwl/angular",
+    "analytics": "fa40c5bd-ba83-40c3-8cdc-8caece3f0c76"
   },
   "schematics": {
     "@nrwl/schematics:component": {
